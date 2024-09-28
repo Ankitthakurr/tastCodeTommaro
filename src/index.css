@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.shadow{
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 1px  rgb(195, 192, 192);
+}
+
+.cross{
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: end;
+}
+
+.scrollbar{
+  overflow: scroll;
+  
+}
